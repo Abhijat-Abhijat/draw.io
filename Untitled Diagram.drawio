@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-13T13:44:43.732Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="eguPrs2rJaVsyXcK6Dyw" version="24.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-13T19:21:19.205Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="NCNofKpsRAEaF3f-FsGZ" version="24.2.5" type="github">
   <diagram name="Page-1" id="aYVJyqjDcmGrR30JsZjx">
     <mxGraphModel dx="1434" dy="792" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -10,17 +10,40 @@
         <mxCell id="FEdO9RvCR5VDKan-ezxu-1" value="HOME Page" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="370" y="60" width="80" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="FEdO9RvCR5VDKan-ezxu-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="FEdO9RvCR5VDKan-ezxu-2" target="FEdO9RvCR5VDKan-ezxu-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="FEdO9RvCR5VDKan-ezxu-2" value="LOGIN Page" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="370" y="180" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FEdO9RvCR5VDKan-ezxu-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="FEdO9RvCR5VDKan-ezxu-4" target="FEdO9RvCR5VDKan-ezxu-5">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FEdO9RvCR5VDKan-ezxu-4" value="Phone Number Send&lt;div&gt;To Backend&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="370" y="300" width="80" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="FEdO9RvCR5VDKan-ezxu-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FEdO9RvCR5VDKan-ezxu-5" target="FEdO9RvCR5VDKan-ezxu-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="FEdO9RvCR5VDKan-ezxu-5" value="OTP request Send" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="510" y="300" width="80" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="FEdO9RvCR5VDKan-ezxu-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="FEdO9RvCR5VDKan-ezxu-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="670" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="FEdO9RvCR5VDKan-ezxu-6" value="Firebase Send OTP to user" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="630" y="300" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FEdO9RvCR5VDKan-ezxu-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="FEdO9RvCR5VDKan-ezxu-11" target="FEdO9RvCR5VDKan-ezxu-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FEdO9RvCR5VDKan-ezxu-11" value="Firebase Send a confirmations of OTP sent" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="630" y="410" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FEdO9RvCR5VDKan-ezxu-13" value="Backend receives acknoledgement" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="510" y="410" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
